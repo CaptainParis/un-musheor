@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "musheor",
+  "version": "1.7.1",
+  "name": "Musheor",
+  "description": "Based meteor addon",
+  "authors": [
+    "musheck"
+  ],
+  "contact": {
+    "homepage": "https://musheck.dev"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/template/icon.png",
+  "environment": "*",
+  "accessWidener": "musheor.accesswidener",
+  "entrypoints": {
+    "meteor": [
+      "musheor.Musheor"
+    ]
+  },
+  "mixins": [
+    "musheor.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "200,69,255"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": [
+      "1.21.11"
+    ],
+    "meteor-client": "*"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/Java-WebSocket-1.5.4.jar"
+    }
+  ]
+}

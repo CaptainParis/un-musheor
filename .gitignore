@@ -1,0 +1,47 @@
+# Gradle
+.gradle/
+build/
+bin/
+out/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*~
+
+# Minecraft / Loom run
+run/
+logs/
+crash-reports/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python tooling caches
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local backups / temp
+*.bak
+*.orig
+
+# Built / original jars (source of truth is src/)
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Unpacked dependency debris
+META-INF/
+
+# Secrets
+.env
+.env.*
+*.pem
+credentials.json
